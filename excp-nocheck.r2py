@@ -43,5 +43,5 @@ for x in xrange(num_calls):
 end = getruntime()
 
 # Output the time
-log("No Check Start:",start,"End:",end,"Time:",(end-start),"\n")
+log("excp nocheck", recurse, num_calls, start, end, end-start, "\n")
 

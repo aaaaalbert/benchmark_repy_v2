@@ -63,5 +63,5 @@ for x in xrange(num_calls):
 end = getruntime()
 
 # Output the time
-log("Hand Optimized Start:",start,"End:",end,"Time:",(end-start),"\n")
+log("mutarg handop", recurse, num_calls, start, end, end-start, "\n")
 

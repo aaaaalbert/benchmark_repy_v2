@@ -40,5 +40,6 @@ for x in xrange(num_calls):
 end = getruntime()
 
 # Output the time
-log("No Check Start:",start,"End:",end,"Time:",(end-start),"\n")
+log("noarg nocheck", recurse, num_calls, start, end, end-start, "\n")
+
 
